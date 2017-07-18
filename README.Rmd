@@ -30,6 +30,10 @@ For testing purposes (not general usage), the package `visualTest` is required.
 This can be installed with `devtools::install_github('mangothecat/visualTest')`.
 For some users `devtools::install_local()` may also be required.
 
+You can create a development environment with `packrat` by running
+`source("packrat/init.R")` in a console, which will install `packrat` if
+necessary, and then all the packages defined in `/packrat/packrat.lock`.
+
 ## Functions
 
 * `theme_gov()`: Theme to be applied to plots produced in [ggplot2]() to give a government statistics publication feel.
